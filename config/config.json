@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "123456",
-    "database": "my_curriculum_db",
-    "host": "127.0.0.1",
+    "username": "${DB_USERNAME}",
+    "password": "${DB_PASSWORD}",
+    "database": "${DB_NAME}",
+    "host": "${DB_HOST}",
     "dialect": "postgres"
   },
   "test": {
